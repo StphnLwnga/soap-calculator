@@ -39,6 +39,7 @@ Install using `npm`;
 $ npm install soap-calculator
 ```
 
+<!--
 ## Basic Use
 
 Configure and load in the application constructor
@@ -58,4 +59,4 @@ export class MyApplication extends BootMixin(ServiceMixin(RepositoryMixin(RestAp
   }
   // ...
 }
-```
+``` -->
