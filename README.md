@@ -27,7 +27,7 @@ Our application will process the XML payload sent by the remote SOAP Web Service
 
 ```JSON
 result: {
-  "value": 55;
+  "value": 55
 }
 ```
 
