@@ -16,7 +16,7 @@ export class CalculatorController {
     protected calculatorService: Calculator,
   ) {}
 
-  @get('/add/intA/intB')
+  @get('/add/{intA}/{intB}')
   async add(
     @param.path.integer('intA') intA: Number,
     @param.path.integer('intB') intB: Number
@@ -27,7 +27,7 @@ export class CalculatorController {
     });
   }
 
-  @get('/divide/intA/intB')
+  @get('/divide/{intA}/{intB}')
   async divide(
     @param.path.integer('intA') intA: Number,
     @param.path.integer('intB') intB: Number
@@ -41,7 +41,7 @@ export class CalculatorController {
     });
   }
 
-  @get('/multiply/intA/intB')
+  @get('/multiply/{intA}/{intB}')
   async multiply(
     @param.path.integer('intA') intA: Number,
     @param.path.integer('intB') intB: Number
@@ -52,7 +52,7 @@ export class CalculatorController {
     })
   }
 
-  @get('/subtract/intA/intB')
+  @get('/subtract/{intA}/{intB}')
   async subtract(
     @param.path.integer('intA') intA: Number,
     @param.path.integer('intB') intB: Number

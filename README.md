@@ -4,7 +4,7 @@
 
 ## Overview
 
-The calculator is a web service using the SOAP protocol that exposes our end points that resembles the operation of a basic calculator as follows:
+The calculator is a web service using the [SOAP protocol](https://calculator-webservice.mybluemix.net/calculator?wsdl) that exposes our end points that resembles the operation of a basic calculator as follows:
 
 - add
 - subtract
@@ -37,6 +37,12 @@ Install using `npm`;
 
 ```sh
 $ npm install soap-calculator
+```
+
+`cd` into the folder and start the app:
+
+```sh
+$ npm start
 ```
 
 <!--
